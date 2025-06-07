@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>فتح الكاميرا والميكروفون</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    video {
+      width: 80%;
+      max-width: 600px;
+      border: 2px solid #4caf50;
+      border-radius: 8px;
+    }
+    #errorMessage {
+      color: #ff4444;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>إذن استخدام الكاميرا والميكروفون</h1>
+  <video id="video" autoplay playsinline></video>
+  <div id="errorMessage"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
